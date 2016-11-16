@@ -8,9 +8,9 @@ angular
     $stateProvider
     .state('home', {
       url: '/home',
-      templateUrl: 'home.html',
+      templateUrl: 'home/_home.html',
       // controller: 'MainCtrl',
     });
 
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('home');
   }]);
