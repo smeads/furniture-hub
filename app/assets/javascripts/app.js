@@ -1,17 +1,18 @@
 angular
-  .module('starterApp', ['ui.router', 'templates'])
+  .module('starterApp', ['templates', 'ui.router'])
   .config([
   '$stateProvider',
   '$urlRouterProvider',
   function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
-    .state('/', {
-      url: '/index',
-      templateUrl: 'index.html',
-      controller: 'MainCtrl',
+    .state('home', {
+      url: '/home',
+      templateUrl: 'home.html',
+      // controller: 'MainCtrl',
     });
 
-    $urlRouterProvider.otherwise('index');
+    // console.log('yoyo')
 
+    $urlRouterProvider.otherwise('/home');
   }]);
