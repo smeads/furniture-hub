@@ -1,5 +1,5 @@
 angular
-  .module('starterApp', ['templates', 'ui.router'])
+  .module('furnitureHub', ['templates', 'ui.router'])
   .config([
   '$stateProvider',
   '$urlRouterProvider',
@@ -11,8 +11,6 @@ angular
       templateUrl: 'home.html',
       // controller: 'MainCtrl',
     });
-
-    // console.log('yoyo')
 
     $urlRouterProvider.otherwise('/home');
   }]);
