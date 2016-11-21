@@ -11,8 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-ui
 //= require jquery_ujs
+// = require_tree ./plugins
 //= require angular/angular
 //= require angular-ui-router/release/angular-ui-router
 //= require angular-rails-templates
+//= require bootstrap
+//= require custom
+//= require app
 //= require_tree .

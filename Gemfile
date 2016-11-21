@@ -30,6 +30,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sass', '~> 3.4', '>= 3.4.22'
 gem 'bower-rails'
 gem 'angular-rails-templates'
+gem 'jquery-ui-rails'
 gem 'bootstrap-sass'
 
 group :development, :test do
